@@ -1,0 +1,5 @@
+# GIT IGNORE
+.settings
+target
+.classpath
+.project
