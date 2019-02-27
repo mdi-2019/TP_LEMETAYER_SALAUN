@@ -15,14 +15,25 @@ public class App
         System.out.println( "\n_____________________________________________________\n" );
         Scanner sc = new Scanner(System.in);
         
-        boolean exit=false;
-        while(!exit) {
-        	System.out.println("Veuillez saisir un mot :");
-        	String str = sc.nextLine();
-        	System.out.println("Vous avez saisi : " + str);
-        	if(str.equals("exit")) {
-        		exit=true;
+        while(true) {
+        	System.out.println("Entrez votre operateur (Q pour quitter):");
+        	String operator = sc.nextLine();
+        	
+        	if(operator.equals("Q")) {
+        		break;
         	}
+        	
+        	System.out.println("Entrez votre valeur :");
+        	double val1 = sc.nextDouble();
+        	
+        	System.out.println("Entrez votre 2eme valeur :");
+        	double val2 = sc.nextDouble();
+        	
+        	double result=0;
+        	
+        	System.out.println("Resultat : "+val1+" "+operator+" "+val2+" = "+result);
+        	
+
         }
         
         System.out.println( "\n_____________________________________________________\n" );
