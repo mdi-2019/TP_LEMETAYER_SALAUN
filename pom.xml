@@ -11,7 +11,7 @@
 	<name>project-maven</name>
 	<url>http://maven.apache.org</url>
 	
-	<build><plugins>
+	<!--<build><plugins>
 		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>    
         	<artifactId>maven-compiler-plugin</artifactId>
@@ -23,7 +23,7 @@
 				<executable>/usr/lib/jvm/java-8-openjdk-amd64/bin/javac</executable>
         	</configuration>
     	</plugin>
-	</plugins></build>
+	</plugins></build>-->
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
